@@ -1,0 +1,16 @@
+package lexer;
+
+/*
+ * 分词类型
+ */
+public enum TokenKind {
+
+
+	PUBLIC, CLASS,STATIC,VOID,
+
+	DOT,SEMI_COLON,LPAREN,RPAREN,LBRACKET,RBRACKET,LBRACE,RBRACE,
+
+	STRING_LITERAL,
+
+	IDENTIFIER, EOF
+}
