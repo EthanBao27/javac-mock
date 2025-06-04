@@ -5,7 +5,6 @@ package lexer;
  */
 public enum TokenKind {
 
-
 	PUBLIC, CLASS,STATIC,VOID,
 
 	DOT,SEMI_COLON,LPAREN,RPAREN,LBRACKET,RBRACKET,LBRACE,RBRACE,

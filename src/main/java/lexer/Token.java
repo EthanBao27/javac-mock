@@ -6,6 +6,4 @@ package lexer;
  * @param text
  */
 public record Token(TokenKind kind,String text) {
-
-
 }

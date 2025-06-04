@@ -42,7 +42,7 @@ public class Lexer {
 				pos++;
 				yield new Token(TokenKind.RBRACE, "}");
 			}
-			case '[' -> {
+			case '[' ->  {
 				pos++;
 				yield new Token(TokenKind.LBRACKET, "[");
 			}
